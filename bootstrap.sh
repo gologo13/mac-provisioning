@@ -18,5 +18,7 @@ brew install ansible
 
 ##------------------------
 
+cd $HOME
+git clone git@github.com:gologo13/mac-provisioning.git
 mkdir $HOME/.macbook-provisioning && cd $0
 ansible-playbook -i hosts web-development.yml
