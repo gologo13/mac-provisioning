@@ -54,9 +54,6 @@
     homebrew_cask_packages:
       - google-chrome
       - google-japanese-ime
-      - java8
       - slack
-      - sublime-text
-      - vagrant
-      - virtualbox
-      - intellij
+      - intellij-idea
+      - dockertoolbox
