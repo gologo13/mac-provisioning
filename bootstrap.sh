@@ -1,10 +1,9 @@
 #!/bin/sh
 
-# Xcode
-sudo xcodebuild -license
+# Prepartion by GUI:
+#   xcode-select --install
 
 # Install Homebrew
-xcode-select --install
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Setup Homebrew
@@ -18,7 +17,9 @@ brew install ansible
 
 ##------------------------
 
-cd $HOME
+DEV_ROOT=$HOME/.mac-provisioning
+
+mkdir -p $DEV_ROOT && cd $DEV_ROOT
 git clone git@github.com:gologo13/mac-provisioning.git
-mkdir $HOME/.macbook-provisioning && cd $0
-ansible-playbook -i hosts web-development.yml
+cd $DEV_ROOT/mac-provisioning
+ansible-playbook -i hosts haribo.yml

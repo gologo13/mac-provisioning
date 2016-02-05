@@ -38,6 +38,24 @@
       - zsh
       - zsh-completions
       - zsh-syntax-highlighting
+      - tomcat7
+      - node
+      - maven
+      - carthage
+      - watch
+      - wget
+      - scala
+      - sbt
+      - mysql
+      - doxygen
+      - gibo
+      - nkf
+      - jq
+      - llvm
+      - lv
+      - gradle
+      - imagemagick
+      - tig
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
