@@ -73,5 +73,11 @@
       - google-chrome
       - google-japanese-ime
       - slack
+      - skype
+      - hipchat
       - intellij-idea
       - dockertoolbox
+      - alfred
+      - sourcetree
+      - atom
+      - mysqlworkbench
